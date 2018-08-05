@@ -71,7 +71,7 @@ client.on('message', async msg => {
 					let index = 0;
 					const embed1 = new Discord.RichEmbed()
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
-${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
+${videos.map(video2 => `[**${++index} **] \`${video2.title}\``)Ejoin('\n')}`)
 					.setFooter("Etoile Team")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 					
