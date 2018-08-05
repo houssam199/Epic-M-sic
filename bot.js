@@ -25,7 +25,7 @@ client.on('ready', () => {
     client.user.setStatus("idle")
 });
 client.on('ready', () => {
-     client.user.setActivity("Type Eplay",{type: 'WATCHING'});
+     client.user.setActivity("Type Eplay",{type: 'Playing'});
 
 });
 const prefix = "E"
